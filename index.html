@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <div class="logo">Currency Converter</div>
+    <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- Main Conversion Section -->
+<main>
+    <section class="converter">
+    <h1>Currency Converter</h1>
+    <div class="input-group">
+        <input type="number" id="amount" placeholder="Enter amount" value="100">
+        <select id="from-currency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+        <option value="EGP">EGP</option>
+        </select>
+        <button id="swap-btn">↔</button>
+        <select id="to-currency">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+        <option value="EGP">EGP</option>
+        </select>
+        <button id="convert-btn">Convert</button>
+    </div>
+    <div class="result">
+        <h2>Converted Amount:</h2>
+        <p id="converted-amount">0.00</p>
+    </div>
+    </section>
+    <!-- Exchange Rate Table -->
+    <section class="exchange-rates">
+    <h2>Current Exchange Rates</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Currency Code</th>
+                <th>Currency Name</th>
+                <th>Exchange Rate (USD)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="one">USD</td>
+                <td>United States Dollar</td>
+                <td class="one1">1.00</td>
+            </tr>
+            <tr>
+                <td class="two">EUR</td>
+                <td>Euro</td>
+                <td class="two2">0.85</td>
+            </tr>
+            <tr>
+                <td class="three">GBP</td>
+                <td>British Pound</td>
+                <td class="three3">0.73</td>
+            </tr>
+            <tr>
+                <td class="four">JPY</td>
+                <td>Japanese Yen</td>
+                <td class="four4">110.25</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2025 Currency Converter. All rights reserved.</p>
+    <nav>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+    </nav>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
