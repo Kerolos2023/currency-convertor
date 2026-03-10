@@ -30,4 +30,4 @@ Exchange Rate API (like ExchangeRate.host
 
 
 Demo
-https://jovial-froyo-ce8ff1.netlify.app/
+https://monumental-dasik-48628c.netlify.app/
