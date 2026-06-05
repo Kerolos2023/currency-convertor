@@ -4,7 +4,7 @@ A simple and responsive **Currency Convertor** web application built with **HTML
 
 ## 🌍 Live Demo
 
-> 🔗 [Live Demo Coming Soon]  
+https://curious-piroshki-a56bf1.netlify.app/
 > أو يمكنك تشغيل التطبيق محليًا بفتح `index.html` في المتصفح.
 
 ---
